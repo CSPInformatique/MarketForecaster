@@ -1,0 +1,1 @@
+INSERT INTO `Company` VALUES (1,'Dimension Fantastique');

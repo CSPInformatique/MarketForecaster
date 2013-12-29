@@ -1,0 +1,40 @@
+a.addScenario:hover{
+	cursor: pointer;
+}
+
+.mainContent{
+	padding-top: 40px;
+}
+
+.fixedJournalEntry,
+.recurrentJournalEntry{
+	border-bottom: 1px solid #000;
+	padding-bottom : 20px;
+}
+
+.fixedJournalEntries .journalEntryParams,
+.recurrentJournalEntries .journalEntryParams{
+	margin: 10px;
+}
+
+.recurrentJournalEntries select{
+	width:100%;
+}
+
+.recurrentJournalEntries .recurrenceUnit{
+	float: left;
+	margin-right: 20px;
+	width: 100px;
+}
+
+.recurrentJournalEntries .entryLabel{
+ 	border:none !important;
+	box-shadow:none !important;
+	font-weight: bold;
+	padding: 0px;
+	outline: none;
+}
+
+.recurrentJournalEntries .reccurence{
+	margin-top: 20px;
+}

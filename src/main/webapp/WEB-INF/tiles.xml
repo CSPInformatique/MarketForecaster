@@ -1,0 +1,20 @@
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_1.dtd"
+>
+<tiles-definitions>
+        <definition name="template" template="/jsp/template/template.jsp">
+			<put-attribute name="menu" value="/jsp/template/menu.jsp" />
+			<put-attribute name="footer" value="/jsp/template/footer.jsp" />
+        </definition>
+        
+<!--         <definition name="menuTemplate" template="/WEB-INF/views/tiles/template.jsp"> -->
+<!--                 <put-attribute name="header" value="/WEB-INF/views/tiles/header.jsp" /> -->
+<!--                 <put-attribute name="menu" value="/WEB-INF/views/tiles/menu.jsp" /> -->
+<!--                 <put-attribute name="footer" value="/WEB-INF/views/tiles/footer.jsp" /> -->
+<!--         </definition> -->
+                
+        <definition name="forecast" extends="template">
+ 			<put-attribute name="content" value="/jsp/forecast.jsp" />
+        </definition>
+</tiles-definitions>
